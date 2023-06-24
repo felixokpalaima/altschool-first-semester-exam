@@ -53,11 +53,17 @@
 
 .sign-1 {
     background-color: #0065FE;
-    padding: 5px 20px;
+    padding: 10px 50px;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 25px;
     position: relative;
     align-content: center;
+    text-decoration: none;
+}
+
+.aurora {
+  background-image: url('/images/aurora.svg');
+  background-repeat: no-repeat;
 }
 
 .first-column {
@@ -68,13 +74,9 @@
     color: #141414;
 }
 
-/* .smaller-columns {
-    width: 340px;
-    height: 80px;
-    size: 16px;
-    line-height: 24px;
-    color: #141414
-} */
+.h4 {
+  font-size: 30px;
+}
 
 .nav-login {
     color: #0065FE;
@@ -117,11 +119,37 @@
     background: -webkit-linear-gradient(#333, #eee);
     -webkit-text-fill-color: transparent;
   }
+
+  .col-text {
+    text-align: left;
+    font-size: 15px;
+    word-spacing: 4px;
+    row-gap: 10px;
+  }
+
+  #whyChoose {
+    font-size: 35px;
+    height: 1.5em;
+    display: inline-block;
+  }
   
   .price-title-card .card-text {
     font-size: 13.5px;
   }
   
+.col-icons {
+  display: block;
+  height: 55px;
+  width: 55px;
+  color: #0465f7;
+  font-size: 24px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 11.5px;
+  margin-bottom: 40px;
+  margin-top: 45px;
+  background: rgb(231, 239, 251);
+}
   .price-perfect {
     color: #005AE2;
   }
@@ -318,4 +346,3 @@
     border-radius: 30px;
     padding: 10px 20px;
   }
-  
