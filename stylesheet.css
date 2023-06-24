@@ -1,0 +1,321 @@
+.upper-body {
+    box-sizing: border-box;
+    margin-right: 10em;
+    margin-left: 10em;
+}
+
+.my-nav-links {
+   margin-right: 100px;
+   /* margin-left: 200px; */
+}
+
+.nav-item {
+    margin-left: 20px;
+
+}
+
+.my-url {
+    margin-left: 180px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.intro h1 {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+    /* padding-left: 100px; */
+    /* align-items: center; */
+}
+
+/* .intro-h1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   line-height: 20;
+} */
+
+.intro p {
+    width: 600px;
+    font-size: small;
+}
+
+.sign-up {
+    display: flex;
+    gap: 60px;
+}
+
+.sign-1 {
+    background-color: #0065FE;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 20px;
+    position: relative;
+    align-content: center;
+}
+
+.first-column {
+    width: 370px;
+    height: 192px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #141414;
+}
+
+/* .smaller-columns {
+    width: 340px;
+    height: 80px;
+    size: 16px;
+    line-height: 24px;
+    color: #141414
+} */
+
+.nav-login {
+    color: #0065FE;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.nav-button {
+    border-radius: 30px;
+}
+
+.footer-columns {
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.price-title-card {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 40%;
+    padding: 0;
+    text-align: center;
+    border: none;
+  }
+  .price-title-card .card-title {
+    padding-bottom: 15px;
+    padding-left: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Gilroy-Bold, Helvetica, sans-serif, sans-serif;
+  }
+  
+  #grad {
+    font-size: 28px;
+    height: 1.7em;
+    display: inline-block;
+    padding-bottom: 0;
+    background: -webkit-linear-gradient(#333, #eee);
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .price-title-card .card-text {
+    font-size: 13.5px;
+  }
+  
+  .price-perfect {
+    color: #005AE2;
+  }
+  
+  .side-card {
+    padding-left: 0px;
+    height: 455px;
+    width: 340px;
+    margin-top: auto;
+    margin-bottom: auto !important;
+    border: 0.4px solid #005AE2;
+    border-radius: 12px;
+    font-weight: lighter;
+  }
+  
+  .center-card .bi-check2-circle {
+    color: white;
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  .center-card {
+    padding-top: 40px;
+    font-weight: lighter;
+    color: #FFFFFF;
+    background: linear-gradient(#1E3448, 100%, #1E3448);
+    height: 627px;
+    width: 410px;
+    border: 0.4px solid #005AE2;
+    border-radius: 12px !important;
+  }
+  
+  .card-group .card-body {
+    padding: 50px;
+  }
+  
+  .sub-title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-size: 1.7em;
+  }
+  
+  .list-items {
+    background: inherit;
+    padding: 0;
+  }
+  
+  .list-group-item {
+    padding: 8px 0;
+    font-size: 1em;
+  }
+  
+  .bi-check2-circle {
+    color: #005AE2;
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  
+  .get-price {
+    margin-top: 50px;
+    width: 200px;
+    color: #005AE2;
+    border: solid #005AE2;
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+  
+  .select-price {
+    margin-top: 50px;
+    width: 200px;
+    border: solid #005AE2;
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+  
+  .form-background {
+    margin-top: 80px;
+    padding-top: 60px;
+    height: 523px;
+    background-image: url('/images/left-form-bg.svg'), url('/images/right-form-bg.svg');
+    background-size: 980px, 1050px;
+    background-repeat: no-repeat;
+    background-position: left, right;
+  }
+  
+  .main-box {
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 523px;
+    background: linear-gradient(#1E3448, 100%, #1E3448);
+  }
+  
+  input, select, option {
+    border: 1px solid #3284FF !important;
+    background-color: #3284FF;
+    color: #3284FF !important;
+    padding: 15px 20px !important;;
+    margin: 8px 0 !important;;
+    box-sizing: border-box;
+  }
+  
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #3284FF !important;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #3284FF !important;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #3284FF !important;
+  }
+  
+  .form {
+    padding: 30px;
+    height: 400px;
+    margin: auto;
+    width: 500px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .trim-btn {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: solid #005AE2;
+    border-radius: 27px;
+    padding: 10px 20px;
+  }
+  
+  .faq-background {
+    height: fit-content;
+    background-image: url('/images/faq-righ-bg.svg'), url('/images/faq-bg-right.png');
+    background-size: 400px, 950px;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    padding-bottom: 120px;
+  }
+  
+  .accordion-button {
+    font-size: 20px;
+    background-color: white;
+    padding: 30px 0;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: white;
+    box-shadow:  0 0 0 0.25rem white;
+  }
+  
+  .accordion-item {
+    margin-top: 0;
+    margin-left: 30px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+  
+  .accordion-body {
+    padding: 0;
+  }
+  
+  .last-banner {
+    margin-top: -80px;
+    padding-top: 60px;
+    height: 350px;
+    background-image: url('/images/left-form-bg.svg'), url('/images/right-form-bg.svg');
+    background-size: 650px, 750px;
+    background-repeat: no-repeat;
+    background-position: left, right;
+  }
+  
+  .last-banner-box {
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 350px;
+    background: linear-gradient(#1E3448, 100%, #1E3448);
+  }
+  
+  .get-started-btn {
+    margin-top: 50px;
+    width: 250px;
+    background-color: #005AE2;
+    color: #fff;
+    border: solid #005AE2;
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+  
